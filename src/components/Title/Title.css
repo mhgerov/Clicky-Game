@@ -1,0 +1,10 @@
+.jumbotron {
+	background-image: url("../../public/banner.jpg");
+	background-size: cover;
+	color: #a72222;
+	font-weight: bold;
+}
+
+.jumbotron h1,h2 {
+	font-weight: bold;
+}

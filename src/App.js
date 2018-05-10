@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
-//import title from './components/index.js';
+import Title from './components/Title';
 
-class title extends React.Component {
-	render() {
-		return (
-			<h1>Hello, Friend!</h1>
-		);
-	}
-}
 
 class App extends Component {
 	render() {
 		return (
-			<div>
-				<title />
-				<p>This is some text</p>
+			<div className="container-fluid">
+				<div className="row justify-content-center">
+					<div className="col-lg-8">
+						<Title/>
+					</div>
+				</div>
 			</div>
 		);
 	}
