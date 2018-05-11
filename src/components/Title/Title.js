@@ -6,7 +6,7 @@ class Title extends Component {
 		return (
 			<div className="jumbotron text-center">
 				<h1 className="display-4">Clicky Game!</h1>
-				<h2>(Vampire Slayer Edition)</h2>
+				<h2>Vampire Slayer Edition</h2>
 			</div>
 		);
 	}
